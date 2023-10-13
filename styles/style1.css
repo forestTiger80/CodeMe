@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 5px;
+    background-color: #FFFFE0;
+}
+
+#intro{
+    background-color: #FFFACD;
+}
+#intro .Alg{
+    text-align: center;
+    margin: 10%;
+}
