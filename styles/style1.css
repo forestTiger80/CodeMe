@@ -5,13 +5,30 @@
 
 body{
     padding: 5px;
-    background-color: #FFFFE0;
+    background-color:#FFFFFF;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 35px;
+    background-color: white;
+    border: solid black;
 }
 
 #intro{
-    background-color: #FFFACD;
+    background-color: #cde0ff;
 }
 #intro .Alg{
-    text-align: center;
-    margin: 10%;
+    text-align:center;
+    padding: 12px;
+    margin-left:30%;
+    margin-right: 30%;
+    border:solid 1px#3c3d40;
+
+}
+#intro .Alg h4{
+    font-size:1.2em ;
+}
+#intro .Alg p{
+    font-size: 24px;
 }
