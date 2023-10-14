@@ -46,3 +46,14 @@ nav a{
     display: inline-flex;
     margin-left: 35%;
 }
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+footer img{
+    width: 220px;
+    height: 120px;
+    padding: 5px;
+    
+}
