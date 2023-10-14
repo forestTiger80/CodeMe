@@ -37,3 +37,12 @@ nav a{
 #info{
     display: flexbox;
 }
+
+#mainpg{
+    display: block;
+
+}
+#mainpg img{
+    display: inline-flex;
+    margin-left: 35%;
+}
