@@ -7,13 +7,58 @@
     <title>Variabler i JS</title>
 </head>
 <body>
+    <style>
+        body{
+            padding: 5px;
+
+        }
+        #intro .variabler{
+            margin: 1rem 2rem 0 2rem;
+            
+
+        }
+        #intro .variabler article {
+            background-color:#cde0ff;
+            margin: 0 20%;
+            border: 1px solid ;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #intro .variabler .eksempel{
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0 0 0;
+        }
+        #intro .variabler .eksempel ul{
+            font-size: 20px;
+            list-style: none;
+            padding: 0 0 0 .25rem;
+        }
+    </style>
     <a href="/index.html" style="text-decoration: none; color:black;background-color: white; font-size: 35px; border: 2px solid black;"> Back to main</a>
     <section id="intro">
         <div class="variabler">
             <article>
-                <h2>Variabler i JavaScript</h2>
+                <h2 style="text-align: center;">Variabler i JavaScript</h2>
+                <p>I JavaScript kan vi definere verdier som variabler eller konstanter. Forskjellen på disse  er at verdien til en variabel 
+                    kan endre seg i løpet av kjøring av programmet, for eksempel en variabel for antall poeng en spiller har, mens en konstant ikke kan endre seg.
+                    eksempel på en kosntant varibel kan være maksimalt antall tegn det er lov å skrive i en melding. Vi definerer variabler med kodeordet <span style="font-weight: 700;">let</span>
+                    og konstanter med kodeordet <strong>const</strong>. Noen ganger vil du kanskje se at javaScript bruker kodeordet <strong>var</strong>.
+                    Det var vanlig i tiden før <strong>let</strong> og <strong>const</strong> ble innført i javaScript.
+
+                </p>
                 
             </article>
+            <div class="eksempel">
+
+                <img src="images/javaScript3.png" alt="">
+                <ul>
+                    <li> Verdien til <strong>const</strong> variabel "result"  kan ikke endres</li>
+                    <li> verdien til <strong>var</strong> variabel "input" kan endres </li>
+                    <li>verdien til <strong>let</strong> variabel "warning" kan endres</li>
+                </ul>
+            </div>
+
 
         </div>
 
