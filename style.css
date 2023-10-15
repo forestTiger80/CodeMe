@@ -17,7 +17,8 @@ body{
 #meny{
     font-family: 'Courier New', Courier, monospace;
     display: flexbox;
-    margin: 0 0 0 5%;
+    margin: 0 0 0 7%;
+    justify-content: center;
 
 }
 #meny .mainimgs{
