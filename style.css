@@ -8,8 +8,8 @@ body{
 }
 #main{
     display: flex;
-    flex: 1 1 auto;
-    justify-content:space-between;
+    flex: 1 auto;
+    
 
   
 
@@ -17,6 +17,17 @@ body{
 #meny{
     font-family: 'Courier New', Courier, monospace;
     display: flexbox;
+    margin: 0 0 0 10%;
+
+}
+#meny .mainimgs{
+    display: flex;
+    padding: 2rem 0 0 0;
+}
+#meny .mainimgs img{
+    width: 700px;
+    max-width: 700px;
+    max-height: 500px;
 }
 #main .nav{
     
