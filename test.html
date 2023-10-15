@@ -12,20 +12,30 @@
     
     <script>
         
+        const input = document.getElementById('input'),
+        button = document.getElementById('button'),
+        output = document.getElementById('output');
+        let value = input.valueAsNumber;
+
+        input.oninput = function () {
+        value = this.valueAsNumber;
+        };
+
+        button.onclick = function () {
+        value += 5;
+        output.textContent = isNaN(value) ? '' : value;
+        };
         
-        let dyr = "hest"
-        function NyAnimal(){
-            dyr = "katt"
-            alert(dyr);
-            
-        }
-       
         
         
-        </script>
+        
+    </script>
+    <input type="number" id="input" />
+    <button id="button">Calculate</button>
+    <p id="output"></p>
 
 
-    <button onclick ="NyAnimal()">click me</button>
+    
 
     
  
