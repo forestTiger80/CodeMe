@@ -17,15 +17,15 @@ body{
 #meny{
     font-family: 'Courier New', Courier, monospace;
     display: flexbox;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 5%;
 
 }
 #meny .mainimgs{
     display: flex;
-    padding: 2rem 0 0 0;
+    padding: 1rem 0 0 0;
 }
 #meny .mainimgs img{
-    width: 700px;
+    width: 600px;
     max-width: 700px;
     max-height: 500px;
 }
@@ -62,8 +62,6 @@ nav h2{
 }
 #mainpg img{
     display: inline-flex;
-    
-    max-width: fit-content;
 
 }
 footer{
