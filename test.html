@@ -3,42 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test</title>
 </head>
-<body>
 
-   
-    
+
+<body body onload="myFunction()" >
     
     <script>
         
-        const input = document.getElementById('input'),
-        button = document.getElementById('button'),
-        output = document.getElementById('output');
-        let value = input.valueAsNumber;
+    
+        function myFunction() {
 
-        input.oninput = function () {
-        value = this.valueAsNumber;
-        };
+        let favoriteFood  = "Pizza";
 
-        button.onclick = function () {
-        value += 5;
-        output.textContent = isNaN(value) ? '' : value;
-        };
-        
-        
-        
-        
+        document.getElementById("myText").innerHTML = favoriteFood;
+        }
     </script>
-    <input type="number" id="input" />
-    <button id="button">Calculate</button>
-    <p id="output"></p>
 
 
-    
-
-    
- 
-    
+    <h1>My favorite food is <span id="myText"></span></h1>
+   
 </body>
+
 </html>

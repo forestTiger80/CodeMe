@@ -19,12 +19,13 @@ body{
 }
 
 #intro .var-container article{
-    text-align: center;
+    /* text-align: center; */
     font-size: 25px;
 }
 
 #intro .var-container article img{
     padding: 1rem 0 1rem 0;
+    margin: 0 30% 0 30%;
 }
 #intro .var-container article h2{
     background-color: green;
@@ -35,8 +36,8 @@ body{
     color:rgb(6, 52, 93);
 }
 #intro .var-container article p{
-    margin: 0 40% 0 40%;
-    padding: 5px 0 5px 0;
+    margin: 0 10% 0 10%;
+    padding: 15px 0 15px 0;
 }
 article ol li{
     padding: 1rem 0 1rem 0;
