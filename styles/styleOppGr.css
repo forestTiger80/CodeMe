@@ -19,7 +19,6 @@ body{
 }
 
 #intro .var-container article{
-    /* text-align: center; */
     font-size: 25px;
 }
 
@@ -31,13 +30,14 @@ body{
     background-color: green;
     color:white;
     padding:10px 0 10px 0;
+    text-align: center;
 }
 #intro .var-container article h3{
     color:rgb(6, 52, 93);
 }
 #intro .var-container article p{
     margin: 0 10% 0 10%;
-    padding: 15px 0 15px 0;
+    padding: 5px 0 5px 0;
 }
 article ol li{
     padding: 1rem 0 1rem 0;

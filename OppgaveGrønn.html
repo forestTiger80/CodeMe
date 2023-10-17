@@ -12,23 +12,37 @@
     <section id="intro">
         <div class="var-container">
             <article>
+                <div style="background-color: rgb(226, 219, 219);">
+
+                    <h3 style="text-align: center;">Slik viser du verdier til variabler og endrer egenskaper til elementer i et HTML-dokument </h3>
+                    <img src="images/grønn1.png" alt="">
+                    <p> Her su flere elementer du skal bruke for å løse oppgaver nedenfor. I bidet du ser ovenfor er det flere deler:</p>
                 
-                <h3 style="text-align: center;">Slik viser du verdier til variabler i et HTML-dokument </h3>
-                <img src="images/grønn1.png" alt="">
-                <p> Her su flere elementer du skal bruke for å løse oppgaver nedenfor. I bidet du ser ovenfor er det flere deler:</p>
-                <br>
-                <h4 style="text-align: center; color: white;">HTML-delen:</h4> <p>Her er det elementtaggen "body" som har en 'onload' attributt satt til "myfunction()". Dette betyr at når siden lastes inn(altså når body-taggen blir lastet), vil javaScript funsjonen 'myfunction()' bli kalt. 
-                    <h4 style="text-align: center; color: white;">javaScript-delen:</h4> <p>Det er en javaScript-funksjon definert kalt 'myfunction()'. Denne funksjonen gjør følgende:</p>
-                    
-                    <p>Oppretter en variabel kalt favoriteFood og gir den verdien "Pizza".</p> 
-                    
-                    <p>Bruker document.getElementById("myText") til å finne HTML-elementet med id "myText". Dette er en span-tag i HTML-delen. </p>
-                    
-                    <p>Endrer innholdet (teksten) til dette span-elementet til å være verdien av favoriteFood, som i dette tilfellet er "Pizza"</p>
-                    <p>Det er en h1-tagg som viser teksten "My favorite food is ", etterfulgt av et span-element med <strong>id</strong> "myText". Dette er hvor verdien "Pizza" blir satt inn ved hjelp av JavaScript-funksjonen.</p>
-                    
-                    
-                    
+                    <h4 style="text-align: center; color: white;">HTML-delen:</h4> <p>Her er det elementtaggen "body" som har en 'onload' attributt satt til "myfunction()". Dette betyr at når siden lastes inn(altså når body-taggen blir lastet), vil javaScript funsjonen 'myfunction()' bli kalt. 
+                        <h4 style="text-align: center; color: white;">javaScript-delen:</h4> <p>Det er en javaScript-funksjon definert kalt 'myfunction()'. Denne funksjonen gjør følgende:</p>
+                        
+                        <p>Oppretter en variabel kalt favoriteFood og gir den verdien "Pizza".</p> 
+                        
+                        <p>Bruker document.getElementById("myText") til å finne HTML-elementet med id "myText". Dette er en span-tag i HTML-delen. </p>
+                        
+                        <p>Endrer innholdet (teksten) til dette span-elementet til å være verdien av favoriteFood, som i dette tilfellet er "Pizza"</p>
+                        <p>Det er en h1-tagg som viser teksten "My favorite food is ", etterfulgt av et span-element med <strong style="color: red;">id</strong> "myText". Dette er hvor verdien "Pizza" blir satt inn ved hjelp av JavaScript-funksjonen.</p>
+                           
+                </div>
+                <div>
+                    <img style="display: flex; width: 550px;" src="images/eksempel1.png" alt="">
+                    <p>
+                        Koden ovenfor viser funksjonen ("myFunction") som skal endre farge, størrelse og teksten til en knapp. Knappen har
+                        følgende attibutter: <strong>id og style</strong>. <strong>onclick</strong> er en event som kjøres når brukeren klikker på knappen.
+                        Du kan se her flere kodelinjer som skal endre konkrete egenskape gjennom en funksjon som skal finne et kontret HTML-element (en knapp og en paragraf) gjennom 
+                        en id. Husk at en id er <strong>unik</strong>. 
+                        
+                        Kopier og kjør koden i HTML-editoren.
+
+
+                    </p>
+
+                </div>
                     
                     
                     <h2 style="text-align: center;">Oppgavekode: Grønn 1</h2>
@@ -74,7 +88,13 @@
                 <p style="text-align: center;"><strong>c)</strong> skriv en kode regner ut 1, 10 og 100 piksler i milimeter.</p>
                 <p style="text-align: center;"> <strong>Bruk gjerne HTML editor eller JS editor.</strong>  </p>
 
+                <h2>Opgavekode: Grønn 5</h2>
+       
+                <p>
+                    Lag en arrayvariabel med fire forskjellige farger. Lag også en knapp og en funksjon som gjør at knappen tilfeldig får en av fargene fra arrayen.
 
+                   <strong>Hint:</strong>  Bruk funksjonen 'Math.floor(Math.random() * 4)' for å generere et tilfeldig tall fra null til tre.
+                </p>
 
             </article>
 
